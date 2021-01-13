@@ -1,0 +1,73 @@
+.card-large {
+	padding: 3rem;
+	font-size: 1.6rem;
+	background-color: white;
+	border-radius: 2rem;
+	color: black;
+	text-decoration: none;
+	// width: 50rem;
+
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50rem, 51rem));
+		grid-gap: 10rem;
+		margin: 10rem 0rem;
+	}
+
+	&__image {
+		width: 100%;
+	}
+
+	&__body {
+		margin-top: 3rem;
+	}
+
+	&__heading {
+		font-size: 2.6rem;
+		font-weight: 500;
+		margin-bottom: 1rem;
+	}
+
+	&__paragraph {
+		font-size: 2rem;
+		font-weight: 400;
+		margin-bottom: 3rem;
+	}
+
+	&__footer {
+		display: flex;
+		font-size: 1.4rem;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: 600;
+	}
+
+	&__tech {
+		color: rgb(107, 107, 107);
+		width: 60%;
+
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+
+	&__link {
+		color: white;
+		font-size: 3rem;
+		background: $color-primary;
+		border-radius: 50%;
+		width: 7rem;
+		height: 7rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+
+		&:hover {
+			color: white;
+			text-decoration: none;
+			transform: scale(1.1);
+			transition: 0.5s all;
+		}
+	}
+}

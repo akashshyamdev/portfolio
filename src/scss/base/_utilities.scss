@@ -1,0 +1,63 @@
+.u-color-primary {
+	color: $color-primary !important;
+}
+
+.u-color-primary-gradient {
+	background-image: linear-gradient(
+		to right,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	letter-spacing: 0.2rem;
+	transition: all 0.2s;
+
+	&:hover {
+		text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+	}
+}
+
+.u-center-text {
+	text-align: center !important;
+}
+
+.u-margin-bottom-huge {
+	margin-bottom: 10rem !important;
+}
+
+.u-margin-bottom-big {
+	margin-bottom: 8rem !important;
+}
+
+.u-margin-bottom-medium {
+	margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-small {
+	margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-mini {
+	margin-bottom: 0.5rem !important;
+}
+
+.u-margin-top-huge {
+	margin-top: 10rem !important;
+}
+
+.u-margin-top-big {
+	margin-top: 8rem !important;
+}
+
+.u-margin-top-medium {
+	margin-top: 4rem !important;
+}
+.u-margin-top-small {
+	margin-top: 1.5rem !important;
+}
+
+.u-margin-top-mini {
+	margin-top: 0.5rem !important;
+}

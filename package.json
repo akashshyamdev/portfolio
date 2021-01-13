@@ -1,0 +1,26 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"@sendgrid/mail": "^7.3.0",
+		"darkmode-js": "^1.5.7",
+		"jquery": "^3.5.1",
+		"locomotive-scroll": "^3.6.1",
+		"waypoint": "^0.2.8",
+		"waypoints": "^4.0.1"
+	},
+	"devDependencies": {
+		"eslint": "^7.12.1",
+		"eslint-config-airbnb-base": "^14.2.0",
+		"eslint-plugin-import": "^2.22.1",
+		"parcel-bundler": "^1.12.4"
+	},
+	"scripts": {
+		"start": "parcel watch ./public/js/app.js --out-dir ./public/js --out-file index.js",
+		"build": "parcel build ./public/js/app.js --out-dir ./public/js --out-file index.js"
+	},
+	"author": "",
+	"license": "ISC"
+}
